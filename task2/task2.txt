@@ -1,0 +1,5 @@
+Task to change file permission
+file name- demo.txt
+read,write,execute permission to owner
+read and write permission to group
+read permission to other users
