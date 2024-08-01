@@ -21,6 +21,11 @@ drwxr-xr-x 1 ADMIN 197121  0 Jul 31 17:20 ../
 
 $ touch test.sh                                           // creatig script for task execution of creating 20 txt files
 $ vi test.sh                                              // open vim editor to insert data to script
+                                                             files=(*.txt)
+                                                             for ((i=0; i<5; i++)); do
+                                                             mv -v "${files[i]}" "${files[i]%.txt}.yml"
+                                                             done
+
 $ cat test.sh                                             // view content of script
 "for i in {1..20}                                           //output                                   
 do
