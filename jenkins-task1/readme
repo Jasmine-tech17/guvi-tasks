@@ -1,0 +1,6 @@
+launched jenkins on local system
+created freestyle project
+linkig github repository to jenkins pipeline
+plugins installation checked
+added tools to jenkins 
+integrated installed tools example- maven with jenkins pipeline
