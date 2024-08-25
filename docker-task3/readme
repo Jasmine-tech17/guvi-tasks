@@ -1,2 +1,3 @@
 custom docker image for nginx deployed with docker-compose.yaml
 webpage up on http://localhost:80
+custom image tagged and pushed to docker hub
