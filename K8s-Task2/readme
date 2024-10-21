@@ -1,0 +1,2 @@
+1) EKS cluster created via AWS console + via terminal using eksctl
+2) nginx app deployed via local on EKS and accessed outside cluster
